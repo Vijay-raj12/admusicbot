@@ -17,7 +17,7 @@ module.exports = {
         `**Then what are you waiting for? Invite me today!** \n\n [Invite Link](https://discord.com/oauth2/authorize?client_id={client_id}&permissions=${permissions}&scope=bot)`
       )
       .setURL(
-        `https://discord.com/oauth2/authorize?client_id={client_id}&permissions=${permissions}&scope=bot`
+        `https://bit.ly/SpidyMusic`
       )
       .setColor("RANDOM");
     return message.channel.send(invite);
